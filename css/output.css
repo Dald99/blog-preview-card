@@ -554,14 +554,14 @@ video {
   --tw-contain-style:  ;
 }
 
-.my-\[12px\] {
-  margin-top: 12px;
-  margin-bottom: 12px;
-}
-
 .mx-\[24px\] {
   margin-left: 24px;
   margin-right: 24px;
+}
+
+.my-\[12px\] {
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
 .mt-\[24px\] {
@@ -576,10 +576,6 @@ video {
   display: flex;
 }
 
-.h-\[522px\] {
-  height: 522px;
-}
-
 .max-h-\[522px\] {
   max-height: 522px;
 }
@@ -590,18 +586,6 @@ video {
 
 .w-\[32px\] {
   width: 32px;
-}
-
-.w-\[384px\] {
-  width: 384px;
-}
-
-.min-w-\[1440px\] {
-  min-width: 1440px;
-}
-
-.max-w-\[1440px\] {
-  max-width: 1440px;
 }
 
 .max-w-\[384px\] {
@@ -620,12 +604,12 @@ video {
   justify-content: center;
 }
 
-.gap-\[12px\] {
-  gap: 12px;
-}
-
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-\[12px\] {
+  gap: 12px;
 }
 
 .rounded-\[20px\] {
@@ -672,62 +656,32 @@ video {
   padding-top: 12px;
 }
 
-.text-center {
-  text-align: center;
-}
-
 .font-figtree {
   font-family: Figtree;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-\[11px\] {
-  font-size: 11px;
-}
-
-.text-\[2rem\] {
-  font-size: 2rem;
-}
-
-.text-\[3rem\] {
-  font-size: 3rem;
-}
-
-.text-\[1rem\] {
-  font-size: 1rem;
-}
-
-.text-\[1\.5rem\] {
-  font-size: 1.5rem;
 }
 
 .text-\[1\.2rem\] {
   font-size: 1.2rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+.text-\[11px\] {
+  font-size: 11px;
 }
 
-.text-\[10px\] {
-  font-size: 10px;
-}
-
-.text-\[\.8rem\] {
-  font-size: .8rem;
+.text-\[15px\] {
+  font-size: 15px;
 }
 
 .text-\[14px\] {
   font-size: 14px;
 }
 
-.text-\[15px\] {
-  font-size: 15px;
+.text-\[1px\] {
+  font-size: 1px;
+}
+
+.font-black {
+  font-weight: 900;
 }
 
 .font-bold {
@@ -738,29 +692,9 @@ video {
   font-weight: 600;
 }
 
-.font-extrabold {
-  font-weight: 800;
-}
-
-.font-\[900\] {
-  font-weight: 900;
-}
-
-.font-black {
-  font-weight: 900;
-}
-
 .text-grey {
   --tw-text-opacity: 1;
   color: rgb(128 128 128 / var(--tw-text-opacity));
-}
-
-.text-\[11p\] {
-  color: 11p;
-}
-
-.text-\[10p\] {
-  color: 10p;
 }
 
 .shadow-custom-black {
@@ -791,27 +725,13 @@ video {
 }
 
 @media (min-width: 768px) {
-  .md\:mx-\[24px\] {
-    margin-left: 24px;
-    margin-right: 24px;
-  }
-
   .md\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
   }
 
-  .md\:px-\[24px\] {
-    padding-left: 24px;
-    padding-right: 24px;
-  }
-
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
-  }
-
-  .md\:text-\[1rem\] {
-    font-size: 1rem;
   }
 }
